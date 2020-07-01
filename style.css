@@ -1,6 +1,9 @@
 /* 
 black: #000000; orange: #ff8901; gray: #c5c5c5; white: #FFFFFF;
 */
+.callback{
+    padding: 20px;
+}
 #callback-form{
     border: 1px solid #ff8901;
     background: #c5c5c530;
