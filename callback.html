@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <title>Интехзапчасть-обратная связь</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img src="img/icons/itz-icon.gif" alt="logo" class="header__logo"></a>
+        <div class="header__content">
+            <div class="title">
+                <div class="header__text-content">
+                    <p>Скоропусковский</p>
+                    <h1 class="text-white">Мастерская <br>Интехзапчасть</h1>
+                    <p>В шаге от трассы - автомобилей князи!</p>
+                    <button class="btn" id="header-button">Меню</button>
+                </div>
+                <div class="header__soc-refs">
+                    <a href="#" class="img-ref"><img src="img/icons/vk.png" alt="vk" class="icon"></a>
+                    <a href="#" class="img-ref"><img src="img/icons/Twitter.png" alt="twitter" class="icon"></a>
+                    <a href="#" class="img-ref"><img src="img/icons/Facebook.png" alt="fasebook" class="icon"></a>
+                </div>
+            </div>
+            <img src="img/content/engine-assembly.gif" alt="Main-coon profile" class="header__image">    
+        </div> 
+    </header>
+    <main class="main">
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="sale.html">Акции</a>
+            <p>Обратная связь</p>
+        </nav>
+        <div class="callback block-1">
+            <form action="" method="POST" id="callback-form">
+                <label for="Name">Ваше имя:</label><br>
+                <input type="text" id="Name" name="name" required><br>
+                <label for="Phone">Ваш телефон:</label><br>
+                <input type="text" id="Phone" name="phone" required><br>
+                <label for="Description">Ваше сообщение:</label><br>
+                <textarea id="Description" cols="70" rows="20" name="description"></textarea><br>
+                <input type="submit" value="Отправить" class="btn" name="submit">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <p>Скоропусковский, Производственная зона, 34</p>
+            <p>+7 (383) 900-64-65</p>
+            <div class="footer-icons">
+                <img src="img/icons/Facebook-orange.png" class="icon" alt="facebook">
+                <img src="img/icons/Twitter-orange.png" class="icon" alt="twitter">
+                <img src="img/icons/vk-orange.png" class="icon" alt="vk">
+            </div>
+            <img src="img/icons/itz-icon.gif" class="footer-logo" alt="logo">
+        </div>
+    </footer>
+</body>
+<script src="callback.js"></script>
+</html>
